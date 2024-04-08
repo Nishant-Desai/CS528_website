@@ -12,6 +12,8 @@
 		<ol>
 			<li>It was important to ensure that the material and prefabs I used for the stars and constellation lines were not too resource intensive to affect the frame rate drastically.</li>
 			<li>Using InvokeRepeating instead of update function was also very helpful in increasing performance.</li>
+			<li>For gameobjects such as the stars, there is no need for the prefab to have shadows. Therfore they can be disabled to save computational load.</li>
+			<li>Since the dataset has entries for stars that are farther than what users can see from a standpoint, it is useful to have the application render the stars that are within a certain range of the user at a given point in time.</li>
 			
 		</ol>
 		<h4>Useful links:</h4>
